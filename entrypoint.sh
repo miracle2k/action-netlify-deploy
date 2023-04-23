@@ -6,16 +6,12 @@ set -e
 if [[ -n "${INSTALL_COMMAND}" ]]
 then
   ${INSTALL_COMMAND}
-else
-
 fi
 
 # Run build command
 if [[ -n "${BUILD_COMMAND}" ]]
 then
   ${BUILD_COMMAND}
-else
-
 fi
 
 # Deploy to Netlify
